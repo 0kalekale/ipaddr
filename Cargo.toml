@@ -1,0 +1,16 @@
+[package]
+name = "ipaddr"
+version = "0.1.0"
+authors = ["0kalekale <kalekale.anon@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+curl = "0.4.34"
+
+[dependencies.pyo3]
+version = "0.13.1"
+features = ["extension-module"]
+
+[lib]
+name = "ipaddress"
+crate-type = ["cdylib"]
