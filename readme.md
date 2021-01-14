@@ -1,4 +1,4 @@
-## build 
+## build ![CI](https://github.com/0kalekale/ipaddr/workflows/CI/badge.svg)
 
 ```
 python3 setup.py install --user
