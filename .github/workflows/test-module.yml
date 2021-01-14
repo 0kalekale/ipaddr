@@ -36,4 +36,4 @@ jobs:
       - name: compile
         run: python3 setup.py install --user
       - name: test
-        run: echo "import ipaddr; print(ipaddr.getip())" > test.py && python3 test.py
+        run: mkdir test && cd test && echo "import ipaddr; print(ipaddr.getip())" > test.py && python3 test.py
