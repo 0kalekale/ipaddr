@@ -31,7 +31,7 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: pip
-        run: pip install setuptools wheel setuptools-rust
+        run: pip3 install setuptools wheel setuptools-rust
       
       - name: compile
         run: python3 setup.py install --user
